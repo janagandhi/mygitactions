@@ -1,0 +1,10 @@
+name: Jana
+
+on: push  
+jobs:
+  test:
+      name: Lint Code base
+      runs-on: ubuntu-latest
+      steps:
+           - name: janarthanan.gandhi@straive.com
+             run: echo "Hello, world!"
